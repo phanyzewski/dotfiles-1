@@ -825,3 +825,4 @@ tssh () {
   compute_instance_zone="$(echo -n $compute_instance_info | awk '{print $2}')"
   gcloud compute ssh --internal-ip --zone "$compute_instance_zone" "$compute_instance_name"
 }
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"

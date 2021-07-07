@@ -163,3 +163,5 @@
   ff = only
 [advice]
   detachedHead = false
+[url "git@github.com:"]
+	insteadOf = https://github.com/

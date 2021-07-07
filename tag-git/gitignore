@@ -2,7 +2,7 @@
 # repository!
 .DS_Store
 Thumbs.db
-
+.vscode/*
 # Vim files
 Session.vim
 .vimrc.local
